@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    scroll-behavior:smooth;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111;
+    color:white;
+    position:sticky;
+    top:0;
+}
+
+.navbar a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.menu-btn{
+    display:none;
+    cursor:pointer;
+}
+
+section{
+    padding:80px 8%;
+    text-align:center;
+}
+
+#home{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:90vh;
+}
+
+.home-text h1 span{
+    color:#00adb5;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#00adb5;
+    color:white;
+    text-decoration:none;
+    margin-top:15px;
+}
+
+.home-img img{
+    width:250px;
+    border-radius:50%;
+}
+
+.social-icons a{
+    color:#00adb5;
+    margin:10px;
+    font-size:20px;
+}
+
+.skill{
+    margin:20px auto;
+    max-width:500px;
+    text-align:left;
+}
+
+.progress{
+    background:#ddd;
+    height:8px;
+    border-radius:5px;
+}
+
+.progress-bar{
+    height:100%;
+    background:#00adb5;
+    width:0;
+    transition:1s;
+}
+
+.project-card{
+    background:#f5f5f5;
+    padding:20px;
+    margin:15px auto;
+    max-width:600px;
+    border-radius:10px;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+form input, form textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+form button{
+    padding:10px;
+    background:#00adb5;
+    color:white;
+    border:none;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    #home{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .navbar{
+        display:none;
+        flex-direction:column;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .navbar.open{
+        display:flex;
+    }
+}

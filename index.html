@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fahamida Akther | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Fahamida</div>
+
+    <nav class="navbar"> 
+
+         <a href="https://cv-fahamida.vercel.app/">Resume</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+<br>
+    <div class="menu-btn" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+
+<!-- HOME -->
+<section id="home">
+    <div class="home-text">
+        <h1>Hi, I'm <span>Fahamida Akther</span></h1>
+        <h3><span id="typing"></span></h3>
+        <a href="#contact" class="btn">Contact Me</a>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+    </div>
+
+    <div class="home-img">
+        <img src="image/cv.jpeg" alt="Profile">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Software Engineering student at SUST.
+        Passionate about Web Development and Problem Solving.
+        I have completed my front-end learning and gained practical experience in building responsive and user-friendly web interfaces using HTML, CSS, and JavaScript. 
+        I am eager to continue learning, improve my skills, and build modern web applications.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <span>HTML</span>
+        <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS</span>
+        <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Java</span>
+        <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+    </div>
+<div class="skill">
+        <span>JavaScript</span>
+        <div class="progress"><div class="progress-bar" data-width="60%"></div></div>
+    </div>
+    <div class="skill">
+        <span>C++</span>
+        <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+<div class="project-card">
+        <h3>Snake Game</h3>
+        <p>Use Sdl set-up and try to build a simple Snake game.</p>
+    </div>
+    <div class="project-card">
+        <h3>Pong Game </h3>
+        <p>Developed a Java OOP based game with GUI and and try to build a basic Pong game.</p>
+    </div>
+    <div class="project-card">
+        <h3>Brick Breaker Game</h3>
+        <p>Developed a Java OOP based game with UI and sound system.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Online Complaint & Resolution Portal</h3>
+        <p>Complete SRS documentation with UML and DFD diagrams.</p>
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+<ul>
+    <li>📞 01918209681</li>
+    <li>📧 ashafahmida@gmail.com</li>
+</ul>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Fahamida Akther | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
