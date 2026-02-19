@@ -39,4 +39,3 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
     alert("Message Sent Successfully!");
 });
 
-
